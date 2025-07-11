@@ -21,7 +21,7 @@ const Board = () => {
             }
         }
         if (!state.includes(null)){
-            return "No one";
+            return "<b>No one ☹️ <b>";
         }
     
         return false;
